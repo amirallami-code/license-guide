@@ -174,4 +174,6 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 
 ---
 
-Made with ❤️ by [Amir Allami](https://github.com/amirallami-code)
+⭐️ this repository if you find it helpful!
+
+Made with ❤️ by [Amirhossein Allami](https://github.com/amirallami-code)
