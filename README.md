@@ -4,6 +4,9 @@
 [![Contributions Welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=for-the-badge)](https://github.com/amirallami-code/license-wise/issues)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=for-the-badge)](http://makeapullrequest.com)
 [![Open Source Love](https://img.shields.io/badge/Open%20Source-%E2%9D%A4-red.svg?style=for-the-badge)](https://github.com/ellerbrock/open-source-badges/)
+[![GitHub Stars](https://img.shields.io/github/stars/amirallami-code/license-wise.svg?style=for-the-badge)](https://github.com/amirallami-code/license-wise/stargazers)
+[![GitHub Forks](https://img.shields.io/github/forks/amirallami-code/license-wise.svg?style=for-the-badge)](https://github.com/amirallami-code/license-wise/network/members)
+[![GitHub Issues](https://img.shields.io/github/issues/amirallami-code/license-wise.svg?style=for-the-badge)](https://github.com/amirallami-code/license-wise/issues)
 
 A comprehensive guide to understanding, choosing, and applying software licenses
 
@@ -14,12 +17,17 @@ A comprehensive guide to understanding, choosing, and applying software licenses
 - [Types of Licenses](#types-of-licenses)
   - [Open Source Licenses](#open-source-licenses)
   - [Proprietary Licenses](#proprietary-licenses)
+- [GitHub-Specific Licenses](#github-specific-licenses)
 - [Choosing the Right License](#choosing-the-right-license)
 - [How to Apply a License](#how-to-apply-a-license)
   - [Step-by-Step Guide](#step-by-step-guide)
   - [GitHub-Specific Instructions](#github-specific-instructions)
 - [License Comparison](#license-comparison)
-- [GitHub's Default Licenses](#githubs-default-licenses)
+- [Creative Commons Licenses](#creative-commons-licenses)
+- [Compatibility Between Licenses](#compatibility-between-licenses)
+- [Changing or Updating Licenses](#changing-or-updating-licenses)
+- [International Aspects of Licensing](#international-aspects-of-licensing)
+- [Licensing and Monetization](#licensing-and-monetization)
 - [Frequently Asked Questions](#frequently-asked-questions)
 - [Additional Resources](#additional-resources)
 - [Contributing](#contributing)
@@ -27,21 +35,21 @@ A comprehensive guide to understanding, choosing, and applying software licenses
 
 ## Introduction
 
-A software license is a legal instrument governing the use or redistribution of software. This comprehensive guide helps you understand various licenses, choose the best option for your project, and correctly apply it to your repository.
+A software license is a legal document that specifies the terms of use, modification, and distribution of software. This comprehensive guide helps you understand various licenses, choose the best option for your project, and correctly apply it to your repository.
 
 ## Why Licenses Matter
 
 Licenses are crucial for several reasons:
 
-1. **Legal Protection**: They safeguard the intellectual property rights of developers.
-2. **Usage Clarity**: They specify the terms of software use for users and contributors.
-3. **Collaboration Framework**: They provide guidelines for project collaboration.
+1. **Protection of Rights**: They safeguard the intellectual and material rights of developers.
+2. **Clarity**: They clearly specify the terms of software use for users and contributors.
+3. **Collaboration**: They provide a framework for collaboration and contribution to projects.
 4. **Legal Compliance**: They help prevent potential legal issues and misunderstandings.
-5. **Attribution**: They ensure proper credit is given to the original developers.
+5. **Recognition**: They ensure proper attribution and recognition of developers' work.
 6. **Community Building**: They can attract or deter certain types of contributors and users.
-7. **Business Strategy**: They impact the ability to monetize or distribute software.
-8. **Liability Limitation**: Many licenses include clauses that limit the developer's liability.
-9. **Innovation Promotion**: Open source licenses, in particular, can foster innovation by allowing others to build upon existing work.
+7. **Business Strategy**: They can impact your ability to monetize or distribute your software.
+8. **Innovation Promotion**: They can encourage or restrict innovation based on their terms.
+9. **Interoperability**: They can affect how your software can be integrated with other projects.
 
 ## Types of Licenses
 
@@ -51,43 +59,41 @@ Licenses are crucial for several reasons:
    - Simple and permissive
    - Allows commercial and private use
    - Requires copyright and license notices
-
+   
 2. **GNU General Public License (GPL)**
    - Ensures software freedom
    - Requires derivative works to remain open source
-   - Versions: GPLv2, GPLv3
-
+   - Different versions: GPLv2, GPLv3
+   
 3. **Apache License 2.0**
    - Suitable for large projects
    - Includes patent rights
    - Requires stating changes
-
+   
 4. **BSD Licenses**
    - Family of permissive free software licenses
-   - Minimal restrictions on use and redistribution
+   - Minimal restrictions on the use and redistribution of covered software
 
 5. **Mozilla Public License 2.0**
    - Weak copyleft license
    - File-level copyleft
 
 6. **GNU Lesser General Public License (LGPL)**
-   - Designed for software libraries
+   - Designed for libraries
    - Allows linking from non-GPL programs
 
 7. **Eclipse Public License (EPL)**
-   - Designed for the Eclipse project
-   - Includes patent grant provisions
+   - Copyleft license used by the Eclipse Foundation
+   - Includes patent grant
 
-8. **Artistic License 2.0**
-   - Perl-friendly license
-   - Allows commercial use
+8. **GNU Affero General Public License (AGPL)**
+   - Similar to GPL, but also covers network use
 
 9. **ISC License**
-   - Functionally equivalent to BSD 2-Clause and MIT
-   - Preferred by OpenBSD
+   - Functionally equivalent to the BSD 2-Clause and MIT licenses
 
-10. **GNU Affero General Public License (AGPL)**
-    - Similar to GPL, but also covers network use
+10. **Artistic License 2.0**
+    - Used primarily for Perl modules and applications
 
 ### Proprietary Licenses
 
@@ -104,43 +110,60 @@ Licenses are crucial for several reasons:
    - Often one open source and one proprietary
 
 4. **Shared Source**
-   - Microsoft's model allowing source code access with restrictions
+   - Microsoft's program that allows access to source code under certain conditions
 
 5. **Freemium**
-   - Basic features are free, but premium features require payment
+   - Basic features are free, but advanced features require payment
+
+## GitHub-Specific Licenses
+
+GitHub provides a selection of licenses that can be easily added to repositories. Here's a list of licenses available through GitHub's license picker:
+
+1. Apache License 2.0
+2. GNU General Public License v3.0
+3. MIT License
+4. BSD 2-Clause "Simplified" License
+5. BSD 3-Clause "New" or "Revised" License
+6. Boost Software License 1.0
+7. Creative Commons Zero v1.0 Universal
+8. Eclipse Public License 2.0
+9. GNU Affero General Public License v3.0
+10. GNU General Public License v2.0
+11. GNU Lesser General Public License v2.1
+12. Mozilla Public License 2.0
+13. The Unlicense
 
 ## Choosing the Right License
 
 Consider these factors when choosing a license:
 
-1. **Project Goals**: Define your project's objectives (e.g., community growth, monetization).
-2. **Target Community**: Identify your intended user and contributor base.
-3. **Compatibility**: Ensure compatibility with libraries and dependencies used.
-4. **Business Model**: Align the license with your monetization strategy.
-5. **Patent Rights**: Consider whether patent protection is necessary.
-6. **Derivative Works**: Decide how you want others to use and build upon your work.
-7. **Project Size and Complexity**: Different licenses may suit projects of varying scales.
-8. **Industry Standards**: Consider common practices in your field.
-9. **Legal Jurisdiction**: Be aware of how different licenses may be interpreted in various countries.
-10. **Future Flexibility**: Think about potential changes in project direction.
+1. **Project Goals**: Do you want the project to be fully open or maintain more control?
+2. **Target Community**: Do you want a community of contributors?
+3. **Compatibility**: Are you using libraries with specific licenses?
+4. **Business Model**: Do you plan to commercialize?
+5. **Patent Rights**: Do you need to consider patent protection?
+6. **Derivative Works**: How do you want others to use and build upon your work?
+7. **Project Size and Complexity**: Different licenses may be more suitable for larger or more complex projects.
+8. **Industry Standards**: Some industries have preferred licenses.
+9. **Geographic Considerations**: Different regions may have specific legal requirements.
+10. **Future Plans**: Consider how your choice might affect future developments or partnerships.
 
 ## How to Apply a License
 
 ### Step-by-Step Guide
 
-1. Select an appropriate license based on the factors discussed above.
-2. Create a `LICENSE` or `LICENSE.md` file in your project's root directory.
-3. Copy the full text of your chosen license into the file.
+1. Choose an appropriate license based on the factors discussed above.
+2. Create a `LICENSE` file in the root directory of your project.
+3. Copy the full text of your chosen license into the `LICENSE` file.
 4. Add a short license notice to the top of each source file in your project.
-5. Include licensing information in your project's documentation (e.g., README.md).
-6. If using dependencies, ensure license compatibility and include necessary attributions.
+5. Include licensing information in your project's documentation.
 
 Example for adding to the top of code files:
 
 ```python
 # Copyright (c) 2024 Amirhossein Allami
 # This code is licensed under the MIT License.
-# For full license text, see the LICENSE file in the project root.
+# For more information, see the LICENSE file in the project root.
 
 def main():
     print("Hello, LicenseWise!")
@@ -151,69 +174,79 @@ if __name__ == "__main__":
 
 ### GitHub-Specific Instructions
 
-1. Navigate to your repository on GitHub.
-2. Click the "Add file" button and select "Create new file".
+1. Go to your repository on GitHub.
+2. Click on "Create new file" button.
 3. Name the file `LICENSE` or `LICENSE.md`.
-4. Above the editor, click "Choose a license template".
-5. Browse available licenses and select the desired one.
-6. Fill in any required fields (e.g., full name, year).
-7. Click "Review and submit".
-8. Add a commit message and commit the new license file to your repository.
+4. Click on "Choose a license template" button.
+5. Select your desired license from the list.
+6. Fill in the required fields (e.g., full name).
+7. Click on "Review and submit" button.
+8. Commit the new license file to your repository.
 
 ## License Comparison
 
-| License | Permissions | Conditions | Limitations |
-|---------|-------------|------------|-------------|
-| MIT | Commercial use, Distribution, Modification, Private use | License and copyright notice | Liability, Warranty |
-| GPLv3 | Commercial use, Distribution, Modification, Patent use, Private use | Disclose source, License and copyright notice, Same license | Liability, Warranty |
-| Apache 2.0 | Commercial use, Distribution, Modification, Patent use, Private use | License and copyright notice, State changes | Trademark use, Liability, Warranty |
-| BSD 3-Clause | Commercial use, Distribution, Modification, Private use | License and copyright notice | Liability, Warranty |
-| MPL 2.0 | Commercial use, Distribution, Modification, Patent use, Private use | Disclose source, License and copyright notice, Same license (file) | Liability, Trademark use, Warranty |
-| AGPL v3 | Commercial use, Distribution, Modification, Patent use, Private use | Disclose source, License and copyright notice, Network use is distribution, Same license | Liability, Warranty |
-| Unlicense | Commercial use, Distribution, Modification, Private use | N/A | Liability, Warranty |
+| License | Commercial Use | Modify | Distribute | Patent Use | Private Use | Sublicense | Trademark Use | Conditions |
+|---------|----------------|--------|------------|------------|-------------|------------|---------------|------------|
+| MIT     | ✅             | ✅     | ✅         | ✅         | ✅          | ✅         | ❌            | Include copyright & license |
+| GPLv3   | ✅             | ✅     | ✅         | ✅         | ✅          | ✅         | ❌            | Disclose source, same license |
+| Apache 2.0 | ✅          | ✅     | ✅         | ✅         | ✅          | ✅         | ❌            | State changes, patent grant |
+| BSD 3-Clause | ✅        | ✅     | ✅         | ❌         | ✅          | ✅         | ❌            | Include license |
+| MPL 2.0 | ✅             | ✅     | ✅         | ✅         | ✅          | ✅         | ❌            | Disclose source |
+| LGPL v3 | ✅             | ✅     | ✅         | ✅         | ✅          | ✅         | ❌            | Disclose source, library modifications |
+| AGPL v3 | ✅             | ✅     | ✅         | ✅         | ✅          | ✅         | ❌            | Disclose source, network use |
+| EPL 2.0 | ✅             | ✅     | ✅         | ✅         | ✅          | ✅         | ❌            | Disclose source, state changes |
+| Unlicense | ✅           | ✅     | ✅         | ✅         | ✅          | ✅         | ✅            | No conditions |
+| Proprietary | ❌         | ❌     | ❌         | ❌         | ✅          | ❌         | ✅            | Requires explicit permission |
 
-## GitHub's Default Licenses
+## Creative Commons Licenses
 
-GitHub offers several popular licenses as templates when creating a new repository. Here's a brief overview of each:
+While primarily used for creative works, some software projects use Creative Commons licenses for documentation:
 
-1. **Apache License 2.0**
-   - Permissive license that also provides an express grant of patent rights from contributors to users.
+1. CC0 (No Rights Reserved)
+2. CC BY (Attribution)
+3. CC BY-SA (Attribution-ShareAlike)
+4. CC BY-ND (Attribution-NoDerivs)
+5. CC BY-NC (Attribution-NonCommercial)
+6. CC BY-NC-SA (Attribution-NonCommercial-ShareAlike)
+7. CC BY-NC-ND (Attribution-NonCommercial-NoDerivs)
 
-2. **GNU General Public License v3.0**
-   - Strong copyleft license that requires distributors of derivative works to make their source code available under the same terms.
+## Compatibility Between Licenses
 
-3. **MIT License**
-   - Short and simple permissive license with conditions only requiring preservation of copyright and license notices.
+License compatibility is crucial when combining software or libraries with different licenses. Here's a brief overview:
 
-4. **BSD 2-Clause "Simplified" License**
-   - Permissive license that comes in two variants: BSD 2-Clause and BSD 3-Clause.
+- MIT and BSD licenses are generally compatible with most other licenses.
+- GPL licenses are compatible with each other but may not be compatible with some other licenses.
+- Apache License 2.0 is compatible with GPLv3, but not with GPLv2.
+- Creative Commons licenses are not recommended for software and may cause compatibility issues.
 
-5. **BSD 3-Clause "New" or "Revised" License**
-   - Similar to the 2-Clause version, but with a 3rd clause that prohibits others from using the name of the project or its contributors to promote derived products without written consent.
+Always check the specific terms of each license when combining software under different licenses.
 
-6. **Boost Software License 1.0**
-   - Simple permissive license, similar to the BSD 2-Clause License, but with an explicit disclaimer of the implied warranty of merchantability and fitness for a particular purpose.
+## Changing or Updating Licenses
 
-7. **Creative Commons Zero v1.0 Universal**
-   - Public domain dedication, waiving all rights to the work worldwide under copyright law.
+Changing the license of a project can be complex:
 
-8. **Eclipse Public License 2.0**
-   - Copyleft license used by the Eclipse Foundation for its software, with provisions regarding patents and use of trademarks.
+1. If you're the sole copyright holder, you can change the license at will.
+2. If there are multiple contributors, you need permission from all copyright holders.
+3. Some licenses (like GPL) make it difficult or impossible to change to a more restrictive license.
+4. Consider using tools like CLA (Contributor License Agreement) to manage contributions and potential license changes.
 
-9. **GNU Affero General Public License v3.0**
-   - Similar to the GNU GPLv3, but with an additional term to allow users who interact with the licensed software over a network to receive the source.
+## International Aspects of Licensing
 
-10. **GNU General Public License v2.0**
-    - Older version of the GNU GPL, still widely used.
+Software licensing can have international implications:
 
-11. **GNU Lesser General Public License v2.1**
-    - Designed as a compromise between the strong copyleft of the GPL and more permissive licenses such as the MIT and BSD licenses.
+1. Most open source licenses are designed to be internationally applicable.
+2. Some countries may have specific requirements or interpretations of certain license terms.
+3. The Berne Convention provides a framework for international copyright protection.
+4. Consider consulting with legal experts when dealing with international licensing issues.
 
-12. **Mozilla Public License 2.0**
-    - Weak copyleft license, characterized as a middle ground between permissive and strong copyleft licenses.
+## Licensing and Monetization
 
-13. **The Unlicense**
-    - A license with no conditions whatsoever which dedicates works to the public domain.
+Different licenses can affect your ability to monetize your software:
+
+1. Permissive licenses (MIT, Apache) allow for easier commercial use and integration.
+2. Copyleft licenses (GPL) can be monetized through support, services, or dual licensing.
+3. Proprietary licenses offer the most control over monetization but may limit adoption.
+4. Open core models combine open source and proprietary elements.
 
 ## Frequently Asked Questions
 
@@ -232,20 +265,14 @@ GitHub offers several popular licenses as templates when creating a new reposito
 5. **Q: Do I need a different license for documentation?**
    A: You can use the same license for your code and documentation, but some projects choose to use separate licenses, such as Creative Commons licenses for documentation.
 
-6. **Q: Can I use code with a copyleft license in my proprietary software?**
-   A: Generally, no. Copyleft licenses like GPL require that any derivative work be distributed under the same license terms.
+6. **Q: Can I use code snippets from Stack Overflow in my project?**
+   A: Code on Stack Overflow is typically under the CC BY-SA license. It's best to attribute the source and check if it's compatible with your project's license.
 
-7. **Q: What's the difference between "use", "modify", and "distribute" in license terms?**
-   A: "Use" refers to running the software, "modify" means changing the code, and "distribute" involves sharing the original or modified version with others.
+7. **Q: How do patent rights work with open source licenses?**
+   A: Some licenses, like Apache 2.0, include explicit patent grants. Others, like MIT, don't mention patents, which can create uncertainty.
 
-8. **Q: How do online services and SaaS relate to open source licenses?**
-   A: Most open source licenses don't require you to share your code if you're only providing a service (not distributing the software). The AGPL is an exception to this.
-
-9. **Q: What's a "patent grant" in a license?**
-   A: It's a term that explicitly grants patent rights to users, protecting them from potential patent litigation by the original authors.
-
-10. **Q: How do I enforce my chosen license?**
-    A: While you can take legal action for license violations, most issues are resolved through communication. Make sure your license terms are clear and easily accessible.
+8. **Q: Can I revoke an open source license?**
+   A: Generally, no. Once you've released code under an open source license, that version remains under that license. However, you can stop distributing new versions under the same license.
 
 ## Additional Resources
 
@@ -255,15 +282,13 @@ GitHub offers several popular licenses as templates when creating a new reposito
 - [Creative Commons](https://creativecommons.org/licenses/)
 - [TLDRLegal](https://tldrlegal.com/) - Simplified explanations of open source licenses
 - [SPDX License List](https://spdx.org/licenses/) - Standardized list of license identifiers
-- [Software Package Data Exchange (SPDX)](https://spdx.dev/) - Standard for communicating software bill of material information
-- [Free Software Foundation's License List](https://www.gnu.org/licenses/license-list.html)
-- [OSI's License Proliferation Committee Report](https://opensource.org/proliferation-report)
-- [GitHub's Licensing a Repository Guide](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/licensing-a-repository)
-- [The Legal Side of Open Source](https://opensource.guide/legal/) by GitHub
+- [FOSSology](https://www.fossology.org/) - Open source license compliance software
+- [CopyrightX](https://copyx.org/) - Free online course on copyright law
+- [Software Freedom Law Center](https://softwarefreedom.org/) - Legal services for free and open source software projects
 
 ## Contributing
 
-We welcome your contributions to improve this guide! Please create an Issue or Pull Request for any suggestions or corrections. Before contributing, please read our [Contribution Guidelines](CONTRIBUTING.md).
+We welcome your contributions to improve this guide! Please create an Issue or Pull Request for any suggestions or corrections.
 
 ## License
 
