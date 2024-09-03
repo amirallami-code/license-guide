@@ -195,154 +195,72 @@ if __name__ == "__main__":
 | License | Commercial Use | Modify | Distribute | Patent Use | Private Use | Sublicense | Trademark Use | Conditions |
 |---------|----------------|--------|------------|------------|-------------|------------|---------------|------------|
 | MIT     | ✅             | ✅     | ✅         | ✅         | ✅          | ✅         | ❌            | Include copyright & license |
-| GPLv3   | ✅             | ✅     | ✅         | ✅         | ✅          | ✅         | ❌            | Disclose source, same license |
-| Apache 2.0 | ✅          | ✅     | ✅         | ✅         | ✅          | ✅         | ❌            | State changes, patent grant |
-| BSD 3-Clause | ✅        | ✅     | ✅         | ❌         | ✅          | ✅         | ❌            | Include license |
-| MPL 2.0 | ✅             | ✅     | ✅         | ✅         | ✅          | ✅         | ❌            | Disclose source |
-| LGPL v3 | ✅             | ✅     | ✅         | ✅         | ✅          | ✅         | ❌            | Disclose source, library modifications |
-| AGPL v3 | ✅             | ✅     | ✅         | ✅         | ✅          | ✅         | ❌            | Disclose source, network use |
-| EPL 2.0 | ✅             | ✅     | ✅         | ✅         | ✅          | ✅         | ❌            | Disclose source, state changes |
-| Unlicense | ✅           | ✅     | ✅         | ✅         | ✅          | ✅         | ✅            | No conditions |
-| Proprietary | ❌         | ❌     | ❌         | ❌         | ✅          | ❌         | ✅            | Requires explicit permission |
+| GPLv3   | ✅             | ✅     | ✅         | ✅         | ✅          | ❌         | ❌            | Must disclose source, same license for derivatives |
+| Apache 2.0 | ✅          | ✅     | ✅         | ✅         | ✅          | ✅         | ✅            | Must include license and notices, State changes, provides explicit grant of patent rights |
+| BSD 2-Clause | ✅        | ✅     | ✅         | ✅         | ✅          | ✅         | ❌            | Must include copyright & license |
+| LGPLv3  | ✅             | ✅     | ✅         | ✅         | ✅          | ✅         | ❌            | Modifications must be licensed under LGPL |
+| MPL 2.0 | ✅             | ✅     | ✅         | ✅         | ✅          | ✅         | ✅            | Modifications must be documented, Same license for files |
+| AGPLv3  | ✅             | ✅     | ✅         | ✅         | ✅          | ❌         | ❌            | Disclose source for network interactions, Same license for derivatives |
 
 ## Creative Commons Licenses
 
-While primarily used for creative works, some software projects use Creative Commons licenses for documentation:
+Creative Commons (CC) licenses are often used for content rather than software. Here are some key types:
 
-1. CC0 (No Rights Reserved)
-2. CC BY (Attribution)
-3. CC BY-SA (Attribution-ShareAlike)
-4. CC BY-ND (Attribution-NoDerivs)
-5. CC BY-NC (Attribution-NonCommercial)
-6. CC BY-NC-SA (Attribution-NonCommercial-ShareAlike)
-7. CC BY-NC-ND (Attribution-NonCommercial-NoDerivs)
-
-It's important to note that Creative Commons licenses are not recommended for software itself, as they can create compatibility issues and don't address software-specific concerns like patent rights.
+1. **CC BY**: Allows distribution, modification, and commercial use as long as credit is given to the creator.
+2. **CC BY-SA**: Same as CC BY, but derivatives must be licensed under the same terms.
+3. **CC BY-ND**: Allows redistribution, commercial and non-commercial, as long as it is passed along unchanged with credit to the creator.
+4. **CC BY-NC**: Allows modification and distribution for non-commercial purposes only, with credit to the creator.
+5. **CC BY-NC-SA**: Same as CC BY-NC, but derivatives must be licensed under the same terms.
+6. **CC BY-NC-ND**: The most restrictive license, only allowing others to download your works and share them with others as long as they credit you, but they can’t change them in any way or use them commercially.
 
 ## Compatibility Between Licenses
 
-License compatibility is crucial when combining software or libraries with different licenses. Here's a brief overview:
-
-- MIT and BSD licenses are generally compatible with most other licenses.
-- GPL licenses are compatible with each other but may not be compatible with some other licenses.
-- Apache License 2.0 is compatible with GPLv3, but not with GPLv2.
-- Creative Commons licenses are not recommended for software and may cause compatibility issues.
-
-Always check the specific terms of each license when combining software under different licenses. Consider using tools like the [License Compatibility Matrix](https://www.gnu.org/licenses/license-compatibility.html) provided by the Free Software Foundation to help navigate complex compatibility issues.
+Compatibility between different licenses is crucial when combining multiple components or dependencies within a project. Some licenses, such as MIT and Apache 2.0, are generally compatible with most others. However, licenses like GPL have strict requirements that might conflict with more permissive licenses. It’s important to verify the compatibility of all licenses involved before combining or distributing software.
 
 ## Changing or Updating Licenses
 
-Changing the license of a project can be complex:
+If you need to change the license of a project:
 
-1. If you're the sole copyright holder, you can change the license at will.
-2. If there are multiple contributors, you need permission from all copyright holders.
-3. Some licenses (like GPL) make it difficult or impossible to change to a more restrictive license.
-4. Consider using tools like CLA (Contributor License Agreement) to manage contributions and potential license changes.
-
-When changing licenses, it's crucial to communicate clearly with your user and contributor community about the reasons for the change and its implications.
+1. **Review Current License**: Ensure that you are legally permitted to change the license.
+2. **Choose New License**: Select a license that aligns with the new direction of your project.
+3. **Notify Contributors**: Inform all contributors of the change, especially if contributions are licensed under the original license.
+4. **Update Documentation**: Replace the old license with the new one in the `LICENSE` file and update all references.
+5. **Public Announcement**: Consider making a public announcement or update log to inform users of the license change.
 
 ## International Aspects of Licensing
 
-Software licensing can have international implications:
-
-1. Most open source licenses are designed to be internationally applicable.
-2. Some countries may have specific requirements or interpretations of certain license terms.
-3. The Berne Convention provides a framework for international copyright protection.
-4. Consider consulting with legal experts when dealing with international licensing issues.
-
-Be aware of region-specific regulations, such as the EU Copyright Directive, which may affect how software is used and distributed in certain areas.
+Software licenses might be interpreted differently in various jurisdictions. Some licenses include clauses to address international concerns, such as the applicability of local laws or the rights granted under different legal systems. Be mindful of these aspects when selecting a license, especially if your project has a global audience.
 
 ## Licensing and Monetization
 
-Different licenses can affect your ability to monetize your software:
+Licensing can be a crucial part of your business model:
 
-1. Permissive licenses (MIT, Apache) allow for easier commercial use and integration.
-2. Copyleft licenses (GPL) can be monetized through support, services, or dual licensing.
-3. Proprietary licenses offer the most control over monetization but may limit adoption.
-4. Open core models combine open source and proprietary elements.
-
-Consider your long-term business goals when choosing a license, as it can significantly impact your monetization strategies and potential for partnerships or acquisitions.
+1. **Dual Licensing**: Offer an open-source version under a permissive license and a proprietary version with additional features.
+2. **Freemium Models**: Provide a basic version of your software for free, with the option to purchase advanced features or services.
+3. **Subscription-Based**: Offer the software under a subscription model, with continuous updates and support.
 
 ## Practical Examples and Case Studies
 
-### Example 1: Project with Multiple Dependencies
-
-Suppose you're developing a project management software that uses several open-source libraries:
-
-1. Library A: MIT License
-2. Library B: GPLv3
-3. Library C: Apache 2.0
-
-Considerations:
-- If you want to release your project under the MIT License, ensure that Library B (GPLv3) is used via dynamic linking.
-- If you use Library B with static linking, you'll need to release your entire project under GPLv3.
-- Regardless of your choice, include license information for all libraries in your project documentation.
-
-### Example 2: Changing License in a Large Project
-
-Company XYZ decides to change the license of one of its open-source projects from MIT to Apache 2.0. Steps involved:
-
-1. Review all contributors and ensure they agree to the license change.
-2. Create a Contributor License Agreement (CLA) for future contributors.
-3. Update the LICENSE file in the project root.
-4. Update all source file headers with the new license information.
-5. Update README and other documentation.
-6. Announce the license change to the user and contributor community.
-
-### Example 3: Using Creative Commons Licenses in Software Projects
-
-A software company decides to use CC BY-SA 4.0 for its project documentation while keeping the source code under MIT License. 
-
-Pros:
-- Allows free sharing and adaptation of documentation.
-- Ensures attribution and share-alike for documentation.
-
-Cons:
-- Complexity in managing two different licenses for one project.
-- Potential confusion for users and contributors.
-
-### Example 4: Cultural and Geographic Differences in Licensing
-
-- In the EU, the Digital Copyright Directive can affect how licensed content is used on online platforms.
-- Some countries have specific requirements for government-funded software projects.
-- In certain jurisdictions, moral rights cannot be waived, which can affect how attribution is handled.
-
-### Example 5: Open Core Model
-
-Company ABC releases its core product under an open-source license (e.g., MIT) but offers premium features under a proprietary license.
-
-Pros:
-- Attracts a wide user base with the open-source core.
-- Allows for monetization through premium features.
-
-Cons:
-- Balancing open-source and proprietary development can be challenging.
-- Risk of community forks if the balance is not maintained well.
+Reviewing real-world examples can provide insights into how licensing choices impact a project's success. For instance, the transition of MySQL from GPL to dual licensing, or the decision by React.js to switch from the BSD+Patents license to MIT, had significant implications for their communities.
 
 ## Frequently Asked Questions
 
-1. **Q: Can I use open-source software in a commercial project?**
-   A: Yes, many open-source licenses allow commercial use. However, always check the specific terms of the license.
+**Q1: Can I change the license of a project after it's been released?**
+A: Yes, but it depends on the current license's terms and whether you have permission from all contributors.
 
-2. **Q: What's the difference between permissive and copyleft licenses?**
-   A: Permissive licenses (e.g., MIT, Apache) allow more freedom in how the software is used and distributed. Copyleft licenses (e.g., GPL) require derivative works to be distributed under the same license.
+**Q2: Do I need a lawyer to choose a license?**
+A: Not necessarily, but consulting a legal expert can be beneficial for complex projects or if you have specific legal concerns.
 
-3. **Q: Do I need a license if I'm not planning to distribute my code?**
-   A: While not strictly necessary, it's good practice to include a license even for private projects. This clarifies terms if you decide to share your code later.
-
-4. **Q: Can I change the license of my project after it's been released?**
-   A: Yes, if you're the sole copyright holder. If there are multiple contributors, you'll need their permission.
-
-5. **Q: How do I handle licensing for a project that uses multiple open-source libraries?**
-   A: Include the licenses of all libraries in your project documentation and ensure your project's license is compatible with those of the libraries you're using.
+**Q3: Can I use multiple licenses for different parts of my project?**
+A: Yes, but this can complicate your project’s legal framework. Ensure that all licenses are compatible.
 
 ## Additional Resources
 
-1. [Choose a License](https://choosealicense.com/) - A simple guide to choosing the right license for your project.
-2. [Open Source Initiative](https://opensource.org/) - The steward of the Open Source Definition (OSD) and the community-recognized body for reviewing and approving licenses as OSD-conformant.
-3. [Software Freedom Law Center](https://softwarefreedom.org/) - Provides legal representation and other law-related services to protect and advance Free and Open Source Software.
-4. [Creative Commons](https://creativecommons.org/) - For understanding and using Creative Commons licenses.
-5. [Free Software Foundation](https://www.fsf.org/) - A nonprofit with a worldwide mission to promote computer user freedom.
+- [ChooseALicense.com](https://choosealicense.com/)
+- [Open Source Initiative](https://opensource.org/licenses)
+- [Creative Commons License Chooser](https://creativecommons.org/choose/)
+- [SPDX License List](https://spdx.org/licenses/)
+- [GitHub’s Guide to Licensing](https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/licensing-a-repository)
 
 ## Contributing
 
@@ -354,15 +272,13 @@ We welcome contributions to this License Guide! Here's how you can contribute:
 4. Push to the branch (`git push origin feature/AmazingFeature`)
 5. Open a Pull Request
 
-Please make sure to update tests as appropriate and adhere to the [Contributor Covenant](https://www.contributor-covenant.org/) code of conduct.
-
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+This guide is licensed under the [MIT License](LICENSE). You are free to use, modify, and distribute this guide, as long as proper attribution is given.
 
 ## Contact
 
-For questions or feedback, please contact: Amirhossein Allami - amirallami.dev@gmail.com
+For any questions or feedback, feel free to reach out via [GitHub Issues](https://github.com/amirallami-code/license-guide/issues) or directly to [Amirhossein Allami](mailto:amirallami@gmail.com).
 
 ---
 
