@@ -12,8 +12,8 @@ A comprehensive guide to understanding, choosing, and applying software licenses
 
 ## 🌐 Available Languages
 
-- [English](README.md)
-- [Persian (فارسی)](README.fa.md)
+- 🇬🇧 [English](README.md)
+- 🇮🇷 [Persian (فارسی)](README.fa.md)
 
 ## 📚 Table of Contents
 
