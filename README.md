@@ -1,12 +1,12 @@
 # License Guide
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge)](https://opensource.org/licenses/MIT)
-[![Contributions Welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=for-the-badge)](https://github.com/amirallami-code/license-wise/issues)
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg?style=for-the-badge)](https://opensource.org/licenses/MIT)
+[![Contributions Welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=for-the-badge)](https://github.com/amirallami-code/license-guide/issues)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=for-the-badge)](http://makeapullrequest.com)
 [![Open Source Love](https://img.shields.io/badge/Open%20Source-%E2%9D%A4-red.svg?style=for-the-badge)](https://github.com/ellerbrock/open-source-badges/)
-[![GitHub Stars](https://img.shields.io/github/stars/amirallami-code/license-wise.svg?style=for-the-badge)](https://github.com/amirallami-code/license-wise/stargazers)
-[![GitHub Forks](https://img.shields.io/github/forks/amirallami-code/license-wise.svg?style=for-the-badge)](https://github.com/amirallami-code/license-wise/network/members)
-[![GitHub Issues](https://img.shields.io/github/issues/amirallami-code/license-wise.svg?style=for-the-badge)](https://github.com/amirallami-code/license-wise/issues)
+[![GitHub Stars](https://img.shields.io/github/stars/amirallami-code/license-guide.svg?style=for-the-badge)](https://github.com/amirallami-code/license-guide/stargazers)
+[![GitHub Forks](https://img.shields.io/github/forks/amirallami-code/license-guide.svg?style=for-the-badge)](https://github.com/amirallami-code/license-guide/network/members)
+[![GitHub Issues](https://img.shields.io/github/issues/amirallami-code/license-guide.svg?style=for-the-badge)](https://github.com/amirallami-code/license-guide/issues)
 
 A comprehensive guide to understanding, choosing, and applying software licenses
 
@@ -35,13 +35,13 @@ A comprehensive guide to understanding, choosing, and applying software licenses
 
 ## Introduction
 
-A software license is a legal document that specifies the terms of use, modification, and distribution of software. This comprehensive guide helps you understand various licenses, choose the best option for your project, and correctly apply it to your repository.
+A software license is a legal instrument that governs the use, modification, and distribution of software. This comprehensive guide aims to help you understand various licenses, choose the most suitable option for your project, and correctly apply it to your repository.
 
 ## Why Licenses Matter
 
 Licenses are crucial for several reasons:
 
-1. **Protection of Rights**: They safeguard the intellectual and material rights of developers.
+1. **Protection of Rights**: They safeguard the intellectual property rights of developers.
 2. **Clarity**: They clearly specify the terms of software use for users and contributors.
 3. **Collaboration**: They provide a framework for collaboration and contribution to projects.
 4. **Legal Compliance**: They help prevent potential legal issues and misunderstandings.
@@ -138,9 +138,9 @@ GitHub provides a selection of licenses that can be easily added to repositories
 Consider these factors when choosing a license:
 
 1. **Project Goals**: Do you want the project to be fully open or maintain more control?
-2. **Target Community**: Do you want a community of contributors?
+2. **Target Community**: Do you want to foster a community of contributors?
 3. **Compatibility**: Are you using libraries with specific licenses?
-4. **Business Model**: Do you plan to commercialize?
+4. **Business Model**: Do you plan to commercialize your project?
 5. **Patent Rights**: Do you need to consider patent protection?
 6. **Derivative Works**: How do you want others to use and build upon your work?
 7. **Project Size and Complexity**: Different licenses may be more suitable for larger or more complex projects.
@@ -166,7 +166,7 @@ Example for adding to the top of code files:
 # For more information, see the LICENSE file in the project root.
 
 def main():
-    print("Hello, LicenseWise!")
+    print("Hello, License Guide!")
 
 if __name__ == "__main__":
     main()
@@ -174,8 +174,8 @@ if __name__ == "__main__":
 
 ### GitHub-Specific Instructions
 
-1. Go to your repository on GitHub.
-2. Click on "Create new file" button.
+1. Navigate to your repository on GitHub.
+2. Click on the "Add file" button and select "Create new file".
 3. Name the file `LICENSE` or `LICENSE.md`.
 4. Click on "Choose a license template" button.
 5. Select your desired license from the list.
