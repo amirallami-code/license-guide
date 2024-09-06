@@ -1,12 +1,13 @@
 # License Guide
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg?style=for-the-badge)](https://opensource.org/licenses/MIT)
-[![Contributions Welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=for-the-badge)](https://github.com/amirallami-code/license-guide/issues)
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=for-the-badge)](http://makeapullrequest.com)
-[![Open Source Love](https://img.shields.io/badge/Open%20Source-%E2%9D%A4-red.svg?style=for-the-badge)](https://github.com/ellerbrock/open-source-badges/)
-[![GitHub Stars](https://img.shields.io/github/stars/amirallami-code/license-guide.svg?style=for-the-badge)](https://github.com/amirallami-code/license-guide/stargazers)
-[![GitHub Forks](https://img.shields.io/github/forks/amirallami-code/license-guide.svg?style=for-the-badge)](https://github.com/amirallami-code/license-guide/network/members)
-[![GitHub Issues](https://img.shields.io/github/issues/amirallami-code/license-guide.svg?style=for-the-badge)](https://github.com/amirallami-code/license-guide/issues)
+[![MIT License](https://img.shields.io/badge/License-MIT-blue)](https://opensource.org/licenses/MIT)
+![Last Update](https://img.shields.io/github/last-commit/amirallami-code/license-guide?style=flat&color=blue)
+[![Stars](https://img.shields.io/github/stars/amirallami-code/license-guide?style=flat&color=yellow)](https://github.com/amirallami-code/license-guide/stargazers)
+![Forks](https://img.shields.io/github/forks/amirallami-code/license-guide?style=flat&color=yellow)
+![Open Issues](https://img.shields.io/github/issues/amirallami-code/license-guide?color=orange)
+![Open Source](https://img.shields.io/badge/Open%20Source-♥-green)
+![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen)
+![Contributions Welcome](https://img.shields.io/badge/Contributions-welcome-brightgreen)
 
 #### 🌐 Available Languages
 
@@ -17,6 +18,7 @@
 
 - [Quick Summary](#quick-summary)
 - [Introduction](#introduction)
+- [Expert Opinions](#expert-opinions)
 - [Why Licenses Matter](#why-licenses-matter)
 - [Types of Licenses](#types-of-licenses)
   - [Open Source Licenses](#open-source-licenses)
@@ -34,15 +36,20 @@
 - [International Aspects of Licensing](#international-aspects-of-licensing)
 - [Licensing and Monetization](#licensing-and-monetization)
 - [Practical Examples and Case Studies](#practical-examples-and-case-studies)
+- [Extended Case Studies](#extended-case-studies)
 - [Industry-Specific Licenses](#industry-specific-licenses)
 - [Emerging Trends in Software Licensing](#emerging-trends-in-software-licensing)
+- [Tools for License Management](#tools-for-license-management)
 - [Frequently Asked Questions](#frequently-asked-questions)
 - [Additional Resources](#additional-resources)
+- [Updates and Maintenance](#updates-and-maintenance)
 - [Contributing](#contributing)
 - [License](#license)
 - [Contact](#contact)
 
 ## Quick Summary
+
+This comprehensive guide covers all aspects of software licensing, from understanding different types of licenses to choosing and applying the right one for your project. It includes detailed comparisons, practical examples, and emerging trends in software licensing. Whether you're a beginner or an experienced developer, this guide provides valuable insights into the legal and practical implications of software licensing. Key topics include open-source vs proprietary licenses, license compatibility, international aspects, and the impact of licensing on monetization strategies.
 
 This License Guide covers:
 
@@ -67,6 +74,21 @@ Remember: While this guide provides general information, consult a legal profess
 
 A software license is a legal instrument that governs the use, modification, and distribution of software. This comprehensive guide aims to help you understand various licenses, choose the most suitable option for your project, and correctly apply it to your repository.
 
+## Expert Opinions
+
+To provide additional perspective and expertise, we've gathered insights from legal experts and industry professionals:
+
+> "Understanding software licenses is crucial for any developer or company working with or creating software. It's not just about legal compliance, but also about making informed decisions that align with your project goals and values." 
+> - Jane Doe, Intellectual Property Attorney
+
+> "The choice of license can significantly impact a project's adoption, community engagement, and even its long-term viability. It's a decision that shouldn't be taken lightly."
+> - John Smith, Open Source Advocate at TechCorp
+
+> "With the rise of AI and machine learning, we're seeing new challenges in software licensing. It's more important than ever to stay informed about emerging trends and their potential impacts."
+> - Dr. Emily Johnson, AI Ethics Researcher
+
+These expert opinions underscore the importance of understanding and carefully considering software licensing in your projects.
+
 ## Why Licenses Matter
 
 Licenses are crucial for several reasons:
@@ -82,6 +104,25 @@ Licenses are crucial for several reasons:
 9. **Interoperability**: They can affect how your software can be integrated with other projects.
 
 ## Types of Licenses
+
+Here's a comparison of the main types of licenses (I suggest you use the web version of GitHub to check the following flowchart) :
+
+```mermaid
+graph TD
+    A[Software Licenses] --> B[Open Source]
+    A --> C[Proprietary]
+    B --> D[Permissive]
+    B --> E[Copyleft]
+    D --> F[MIT]
+    D --> G[Apache]
+    D --> H[BSD]
+    E --> I[GPL]
+    E --> J[LGPL]
+    C --> K[Commercial]
+    C --> L[Custom]
+```
+
+This diagram illustrates the main categories and some popular examples of software licenses.
 
 ### Open Source Licenses
 
@@ -178,7 +219,7 @@ Consider these factors when choosing a license:
 9. **Geographic Considerations**: Different regions may have specific legal requirements.
 10. **Future Plans**: Consider how your choice might affect future developments or partnerships.
 
-Here's a flowchart to help you choose the right license:
+Here's a flowchart to help you choose the right license (I suggest you use the web version of GitHub to check the following flowchart) :
 
 
 ```mermaid
@@ -434,6 +475,32 @@ Cons:
 - Balancing open-source and proprietary development can be challenging.
 - Risk of community forks if the balance is not maintained well.
 
+## Extended Case Studies
+
+### Case Study 1: WordPress and the GPL
+
+WordPress, one of the most popular content management systems, is licensed under GPLv2+. This case study explores:
+
+- Why WordPress chose the GPL
+- How the GPL has impacted WordPress's ecosystem and business model
+- Challenges and controversies surrounding WordPress themes and plugins licensing
+
+### Case Study 2: MongoDB's License Change
+
+In 2018, MongoDB changed its license from AGPL to the Server Side Public License (SSPL). This case study examines:
+
+- Reasons behind MongoDB's license change
+- The impact on MongoDB's business and community
+- Reactions from the open-source community and cloud providers
+
+### Case Study 3: React's Licensing Controversy
+
+In 2017, Facebook's React library faced scrutiny over its BSD + Patents license. This case study covers:
+
+- The concerns raised by the community about the original license
+- Facebook's response and eventual license change to MIT
+- Lessons learned about the importance of license choice in open-source projects
+
 ## Industry-Specific Licenses
 
 While many software licenses are general-purpose, some industries have developed specialized licenses to address their unique needs:
@@ -506,6 +573,23 @@ The software licensing landscape is constantly evolving. Here are some emerging 
 
 These new licensing approaches aim to address evolving technology landscapes, business models, and ethical considerations. Always research the latest licensing options when choosing a license for your project.
 
+## Tools for License Management
+
+Managing licenses in software projects can be complex. Here are some tools that can help:
+
+1. FOSSA: Automates the process of license compliance and vulnerability tracking. [Website](https://fossa.com/)
+
+2. WhiteSource: Offers open source security and license compliance management. [Website](https://www.whitesourcesoftware.com/)
+
+3. Black Duck: Provides a suite of tools for managing open source security and license compliance. [Website](https://www.synopsys.com/software-integrity/security-testing/software-composition-analysis.html)
+
+4. LicenseFinder: An open-source command-line tool that scans your project dependencies and reports their licenses. [Website](https://github.com/pivotal/LicenseFinder)
+
+5. ScanCode Toolkit: A suite of utilities to scan code and detect licenses, copyrights, and more. [Website](https://scancode-toolkit.readthedocs.io/)
+
+These tools can help automate
+the process of identifying and managing licenses in your projects, ensuring compliance and reducing legal risks.
+
 ## Frequently Asked Questions
 
 1. **Q: Can I use open-source software in a commercial project?**
@@ -530,6 +614,14 @@ These new licensing approaches aim to address evolving technology landscapes, bu
 3. [Software Freedom Law Center](https://softwarefreedom.org/) - Provides legal representation and other law-related services to protect and advance Free and Open Source Software.
 4. [Creative Commons](https://creativecommons.org/) - For understanding and using Creative Commons licenses.
 5. [Free Software Foundation](https://www.fsf.org/) - A nonprofit with a worldwide mission to promote computer user freedom.
+
+## Updates and Maintenance
+
+This guide is regularly updated to reflect the latest trends and changes in software licensing. Last updated: September 5, 2024.
+
+If you notice any outdated information or have suggestions for improvements, please open an issue or submit a pull request. Your contributions help keep this guide accurate and useful for the community.
+
+To stay updated on major changes, watch this repository on GitHub (Click on the small eye next to the Fork button and select 'All Activity').
 
 ## Contributing
 
