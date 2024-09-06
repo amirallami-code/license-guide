@@ -9,12 +9,14 @@
 ![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen)
 ![Contributions Welcome](https://img.shields.io/badge/Contributions-welcome-brightgreen)
 
-#### 🌐 Available Languages
+This comprehensive guide covers all aspects of software licensing, from understanding different types of licenses to choosing and applying the right one for your project. It includes detailed comparisons, practical examples, and emerging trends in software licensing. Whether you're a beginner or an experienced developer, this guide provides valuable insights into the legal and practical implications of software licensing. Key topics include open-source vs proprietary licenses, license compatibility, international aspects, and the impact of licensing on monetization strategies.
 
-- 🇬🇧 [English](README.md)
-- 🇮🇷 [Persian (فارسی)](README.fa.md)
+#### Available Languages
 
-## 📚 Table of Contents
+- [English](README.md)
+- [Persian (فارسی)](README.fa.md)
+
+## Table of Contents
 
 - [Quick Summary](#quick-summary)
 - [Introduction](#introduction)
@@ -48,8 +50,6 @@
 - [Contact](#contact)
 
 ## Quick Summary
-
-This comprehensive guide covers all aspects of software licensing, from understanding different types of licenses to choosing and applying the right one for your project. It includes detailed comparisons, practical examples, and emerging trends in software licensing. Whether you're a beginner or an experienced developer, this guide provides valuable insights into the legal and practical implications of software licensing. Key topics include open-source vs proprietary licenses, license compatibility, international aspects, and the impact of licensing on monetization strategies.
 
 This License Guide covers:
 
