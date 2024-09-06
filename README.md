@@ -5,7 +5,7 @@
 [![Stars](https://img.shields.io/github/stars/amirallami-code/license-guide?style=flat&color=yellow)](https://github.com/amirallami-code/license-guide/stargazers)
 ![Forks](https://img.shields.io/github/forks/amirallami-code/license-guide?style=flat&color=yellow)
 ![Open Issues](https://img.shields.io/github/issues/amirallami-code/license-guide?color=orange)
-![Open Source](https://img.shields.io/badge/Open%20Source-♥-green)
+![Open Source](https://img.shields.io/badge/Open%20Source-❤-gray)
 ![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen)
 ![Contributions Welcome](https://img.shields.io/badge/Contributions-welcome-brightgreen)
 
