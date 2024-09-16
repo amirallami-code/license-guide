@@ -1,7 +1,7 @@
 # License Guide
 
+<!-- ![Last Update](https://img.shields.io/github/last-commit/amirallami-code/license-guide?style=flat&color=blue) -->
 [![MIT License](https://img.shields.io/badge/License-MIT-blue)](https://opensource.org/licenses/MIT)
-![Last Update](https://img.shields.io/github/last-commit/amirallami-code/license-guide?style=flat&color=blue)
 [![Stars](https://img.shields.io/github/stars/amirallami-code/license-guide?style=flat&color=yellow)](https://github.com/amirallami-code/license-guide/stargazers)
 ![Forks](https://img.shields.io/github/forks/amirallami-code/license-guide?style=flat&color=yellow)
 ![Open Issues](https://img.shields.io/github/issues/amirallami-code/license-guide?color=orange)
