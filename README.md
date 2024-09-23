@@ -609,11 +609,16 @@ the process of identifying and managing licenses in your projects, ensuring comp
 
 ## Additional Resources
 
-1. [Choose a License](https://choosealicense.com/) - A simple guide to choosing the right license for your project.
-2. [Open Source Initiative](https://opensource.org/) - The steward of the Open Source Definition (OSD) and the community-recognized body for reviewing and approving licenses as OSD-conformant.
-3. [Software Freedom Law Center](https://softwarefreedom.org/) - Provides legal representation and other law-related services to protect and advance Free and Open Source Software.
-4. [Creative Commons](https://creativecommons.org/) - For understanding and using Creative Commons licenses.
-5. [Free Software Foundation](https://www.fsf.org/) - A nonprofit with a worldwide mission to promote computer user freedom.
+1. [The Open Source Guide to Legal Issues](https://opensource.guide/legal/) - A comprehensive guide by GitHub on the legal aspects of open source software
+2. [Software License Center](https://tldrlegal.com/) - Summaries of popular licenses in plain English
+3. [Free Software Foundation - Licenses](https://www.gnu.org/licenses/licenses.en.html) - Comprehensive information about GNU licenses and free software philosophy
+4. [Choose a License](https://choosealicense.com/) - A simple guide to help you choose the right license for your project
+5. [Open Source Initiative - Licenses & Standards](https://opensource.org/licenses) - A complete list of OSI-approved licenses
+6. [Creative Commons License Library](https://creativecommons.org/licenses/) - Full information about Creative Commons licenses
+7. [Software Freedom Law Center](https://softwarefreedom.org/resources/2008/foss-primer.html) - A comprehensive primer on FOSS licensing
+8. [Free and Open Source Software Licenses in Software Development](https://link.springer.com/chapter/10.1007/978-3-319-57735-7_7) - An academic paper on the role of licenses in software development
+9. [Open Source License Management Tools](https://www.linuxfoundation.org/tools/open-source-license-management-tools/) - Introduction to tools for managing licenses in software projects
+10. [Coursera Course: An Introduction to Software Licensing](https://www.coursera.org/learn/intellectual-property-law-for-engineers) - An online course about intellectual property law for engineers
 
 ## Updates and Maintenance
 
