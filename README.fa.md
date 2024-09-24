@@ -1,13 +1,14 @@
 # راهنمای لایسنس
 
-‏[![MIT License](https://img.shields.io/badge/License-MIT-blue)](https://opensource.org/licenses/MIT)
-‏![Last Update](https://img.shields.io/github/last-commit/amirallami-code/license-guide?style=flat&color=blue)
-‏[![Stars](https://img.shields.io/github/stars/amirallami-code/license-guide?style=flat&color=yellow)](https://github.com/amirallami-code/license-guide/stargazers)
-‏![Forks](https://img.shields.io/github/forks/amirallami-code/license-guide?style=flat&color=yellow)
-‏![Open Issues](https://img.shields.io/github/issues/amirallami-code/license-guide?color=orange)
-‏![Open Source](https://img.shields.io/badge/Open%20Source-❤-gray)
-‏![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen)
-‏![Contributions Welcome](https://img.shields.io/badge/Contributions-welcome-brightgreen)
+[![MIT License](https://img.shields.io/badge/License-MIT-blue)](https://opensource.org/licenses/MIT)
+![GitHub Release](https://img.shields.io/github/v/release/amirallami-code/license-guide)
+![Last Update](https://img.shields.io/github/last-commit/amirallami-code/license-guide?style=flat&color=blue)
+[![Stars](https://img.shields.io/github/stars/amirallami-code/license-guide?style=flat&color=yellow)](https://github.com/amirallami-code/license-guide/stargazers)
+![Forks](https://img.shields.io/github/forks/amirallami-code/license-guide?style=flat&color=yellow)
+![Open Issues](https://img.shields.io/github/issues/amirallami-code/license-guide?color=orange)
+![Open Source](https://img.shields.io/badge/Open%20Source-❤-gray)
+![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen)
+![Contributions Welcome](https://img.shields.io/badge/Contributions-welcome-brightgreen)
 
 این راهنمای جامع تمام جنبه‌های لایسنس نرم‌افزار را پوشش می‌دهد، از درک انواع مختلف لایسنس‌ها گرفته تا انتخاب و اعمال لایسنس مناسب برای پروژه شما. این راهنما شامل مقایسه‌های دقیق، مثال‌های عملی و روندهای نوظهور در لایسنس نرم‌افزار است. چه مبتدی باشید چه توسعه‌دهنده‌ای با تجربه، این راهنما بینش‌های ارزشمندی درباره پیامدهای حقوقی و عملی لایسنس نرم‌افزار ارائه می‌دهد. موضوعات کلیدی شامل لایسنس‌های متن‌باز در مقابل اختصاصی، سازگاری لایسنس‌ها، جنبه‌های بین‌المللی و تأثیر لایسنس بر استراتژی‌های درآمدزایی است.
 
