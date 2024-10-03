@@ -24,6 +24,7 @@ This comprehensive guide covers all aspects of software licensing, from understa
 - [Expert Opinions](#expert-opinions)
 - [Why Licenses Matter](#why-licenses-matter)
 - [Types of Licenses](#types-of-licenses)
+  - [History of Software Licenses](#history-of-software-licenses)
   - [Open Source Licenses](#open-source-licenses)
   - [Proprietary Licenses](#proprietary-licenses)
 - [GitHub-Specific Licenses](#github-specific-licenses)
