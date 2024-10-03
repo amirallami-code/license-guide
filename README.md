@@ -125,6 +125,55 @@ graph TD
 
 This diagram illustrates the main categories and some popular examples of software licenses.
 
+### History of Software Licenses
+
+The evolution of software licenses reflects the changing landscape of software development and distribution:
+
+#### 1950s-1960s: Early Days
+- Most software was bundled with hardware and freely shared among researchers
+- IBM led the "bundling" practice where software came free with hardware purchases
+- Source code was commonly distributed to allow users to fix bugs and make improvements
+
+#### 1969-1970s: The Beginning of Proprietary Software
+- In 1969, IBM announced its decision to "unbundle" software from hardware
+- This marked the beginning of the commercial software industry
+- Software began to be treated as a proprietary asset
+
+#### 1980s: The Rise of Copyright Protection
+- 1980: US Copyright Act was amended to explicitly include computer programs
+- 1983: Richard Stallman announced the GNU Project
+- 1985: Creation of the Free Software Foundation (FSF)
+- 1989: First version of the GPL (GNU General Public License) was released by Richard Stallman
+
+#### 1990s: Open Source Movement
+- 1991: Linux kernel was released under GPL by Linus Torvalds
+- 1997: Eric Raymond published "The Cathedral and the Bazaar"
+- 1998: Open Source Initiative (OSI) was founded
+- 1998: Mozilla was released as open source by Netscape
+- 1998: Term "open source" was coined by Christine Peterson
+
+#### 2000s: Proliferation of License Types
+- 2004: Creation of Creative Commons licenses
+- 2004: Mozilla Public License 1.1 released
+- 2004: Release of Ubuntu Linux under GPL
+- 2007: GPLv3 released to address patents and hardware restrictions
+
+#### 2010s: Modern Licensing Trends
+- 2012: Apache License 2.0 became increasingly popular for corporate open source
+- 2015: Rise of permissive licensing over copyleft
+- 2018: Introduction of new ethical licenses
+- 2019: Rise of source-available licenses like MongoDB's SSPL
+
+#### Key License Creators and Contributors:
+- **Richard Stallman**: Created GPL and founded the Free Software Foundation (1985)
+- **Linus Torvalds**: Choose GPL for Linux kernel (1991)
+- **Eric Raymond & Bruce Perens**: Founded Open Source Initiative (1998)
+- **Lawrence Lessig**: Founded Creative Commons (2001)
+- **Apache Software Foundation**: Created Apache License (1995, updated 2004)
+- **Mozilla Foundation**: Created Mozilla Public License (1998)
+
+This history shows how software licensing has evolved from an academic sharing model to a complex ecosystem balancing commercial interests, open collaboration, and user freedoms.
+
 ### Open Source Licenses
 
 1. **MIT License**
