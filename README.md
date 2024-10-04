@@ -23,8 +23,8 @@ This comprehensive guide covers all aspects of software licensing, from understa
 - [Introduction](#introduction)
 - [Expert Opinions](#expert-opinions)
 - [Why Licenses Matter](#why-licenses-matter)
+- [History of Software Licenses](#history-of-software-licenses)
 - [Types of Licenses](#types-of-licenses)
-  - [History of Software Licenses](#history-of-software-licenses)
   - [Open Source Licenses](#open-source-licenses)
   - [Proprietary Licenses](#proprietary-licenses)
 - [GitHub-Specific Licenses](#github-specific-licenses)
@@ -105,28 +105,7 @@ Licenses are crucial for several reasons:
 8. **Innovation Promotion**: They can encourage or restrict innovation based on their terms.
 9. **Interoperability**: They can affect how your software can be integrated with other projects.
 
-## Types of Licenses
-
-Here's a comparison of the main types of licenses (I suggest you use the web version of GitHub to check the following flowchart) :
-
-```mermaid
-graph TD
-    A[Software Licenses] --> B[Open Source]
-    A --> C[Proprietary]
-    B --> D[Permissive]
-    B --> E[Copyleft]
-    D --> F[MIT]
-    D --> G[Apache]
-    D --> H[BSD]
-    E --> I[GPL]
-    E --> J[LGPL]
-    C --> K[Commercial]
-    C --> L[Custom]
-```
-
-This diagram illustrates the main categories and some popular examples of software licenses.
-
-### History of Software Licenses
+## History of Software Licenses
 
 The evolution of software licenses reflects the changing landscape of software development and distribution:
 
@@ -175,7 +154,28 @@ The evolution of software licenses reflects the changing landscape of software d
 
 This history shows how software licensing has evolved from an academic sharing model to a complex ecosystem balancing commercial interests, open collaboration, and user freedoms.
 
-### Open Source Licenses
+## Types of Licenses
+
+Here's a comparison of the main types of licenses (I suggest you use the web version of GitHub to check the following flowchart) :
+
+```mermaid
+graph TD
+    A[Software Licenses] --> B[Open Source]
+    A --> C[Proprietary]
+    B --> D[Permissive]
+    B --> E[Copyleft]
+    D --> F[MIT]
+    D --> G[Apache]
+    D --> H[BSD]
+    E --> I[GPL]
+    E --> J[LGPL]
+    C --> K[Commercial]
+    C --> L[Custom]
+```
+
+This diagram illustrates the main categories and some popular examples of software licenses.
+
+## Open Source Licenses
 
 1. **MIT License**
    - Simple and permissive
