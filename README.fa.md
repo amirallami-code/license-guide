@@ -696,7 +696,7 @@ graph TD
 
 این پروژه تحت لایسنس MIT مجوز داده شده است - برای جزئیات به فایل [LICENSE](LICENSE) مراجعه کنید.
 
-##ارتباط با ما
+## ارتباط با ما
 
 برای هرگونه سوال یا بازخورد، لطفاً از طریق [GitHub Issues](https://github.com/amirallami-code/license-guide/issues) یا مستقیماً با [Amirhossein Allami](mailto:amirallami@gmail.com) در ارتباط باشید.
 
